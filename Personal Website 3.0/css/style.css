@@ -1,0 +1,309 @@
+body{
+    margin: 0px;
+}
+
+/*****NAVIGATION SECTION*****/
+
+nav {
+    background-color: #E6E6FA;
+}
+
+nav:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.logo{
+    display: inline-block;
+    margin: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.menu{
+    float: right;
+    margin: 20px;
+}
+
+.menu ul{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.menu ul li{
+    display:inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px 10px 20px 10px;
+    color:black;
+}
+
+.menu ul li a:hover{
+    color: white;
+    transition: all 0.5s ease;
+}
+
+/*****HEADER SECTION*****/
+
+header {
+    background-image: url(../images/Sunset.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -50px;
+}
+
+header p{
+    margin: 0px;
+}
+
+.img-container{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.btn-work, .btn-contact{
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+.btn-work {
+    background-color: #85af4b;
+    color: white;
+    margin: 15px 10px;
+    border: 2px solid #fff
+}
+
+.btn-work:hover{
+    background-color:white;
+    color: #85af4b;
+    transition: all 0.5s ease;
+    border: 2px solid #85af4b
+}
+
+.btn-contact {
+    background-color: white;
+    color: #85af4b;
+    margin: 15px 10px;
+    border: 2px solid #85af4b;
+}
+
+.btn-contact:hover {
+    background-color: #85af4b;
+    color: white;
+    transition: all 0.5s ease;
+    border: 2px solid #fff;
+}
+
+/*****ABOUT ME SECTION*****/
+
+#about-me {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#about-me:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#about-me h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#about-me h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: #85af4b;
+}
+
+#about-me .col-left, #about-me .col-right {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#about-me .col-left {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#about-me .col-left img {
+    max-width: 70%;
+    max-height: 70%;
+    margin-left: 100px;
+}
+
+/*****MY SKILLS SECTION*****/
+
+#my-skills {
+    background-color: #e2e2e2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#my-skills h2{
+    text-transform: uppercase;
+    position: relative;
+}
+
+#my-skills h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: #85af4b;
+}
+
+#my-skills:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#my-skills .skills-left, #my-skills .skills-center, #my-skills .skills-right{
+    width: 33.3333333333%;
+    display: inline-block;
+    float: left;
+}
+
+#my-skills i {
+    color: #85af4b;
+    font-size: 60px;
+}
+
+/*****CONTACTS SECTION*****/
+
+.contact-section {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-section a{
+    text-decoration: none;
+}
+
+.contact-section a:visited{
+    color: #333;
+}
+
+.contact-section:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.social-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.social-container i{
+    float: left;
+    margin-top: 17px;
+    margin-right: 20px;
+    font-size: 24px;
+    color: #85af4b;
+}
+
+.col-1 p, .col-2 p, .col-3 p{
+    display: inline-block;
+}
+
+.col-1, .col-2, col-3{
+    width: 33.3333333333%;
+    display: inline-block;
+    float: left;
+}
+
+.text-bold{
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-section h2{
+    text-transform: uppercase;
+    position: relative;
+}
+
+.contact-section h2:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: #85af4b;
+}
+
+/*****FOOTER SECTION*****/
+
+footer{
+    background-color: #777777;
+    color: #333;
+    padding: 20px 40px;
+}
+
+footer:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer-text {
+    float: left;
+}
+
+.social {
+    float: right;
+    margin-top: 12px;
+}
+
+.social a i {
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 10px, 10px;
+}
+
+.social a:visited{
+    color: #333;
+}
+
+.social a i:hover {
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.footer-text p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
